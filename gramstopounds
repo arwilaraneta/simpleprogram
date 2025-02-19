@@ -1,1 +1,16 @@
+#include <iostream>
+using namespace std;
+
+const double grams_to_pounds = 0.00220462;
+
+int main() { double grams, pounds;
+
+cout << "Enter weight in grams: ";
+
+pounds = grams * grams_to_pounds;
+
+cout << grams << " grams is equal to " << pounds << " pounds." << endl;
+
+return 0;
+}
 
