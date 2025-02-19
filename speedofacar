@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() { double distance, time, speed;
+
+// in km
+cout << "Enter the distance traveled: ";
+cin>>distance;
+// in hours
+cout << "Enter the time taken: ";
+cin>>time;
+
+speed = distance / time;
+
+cout << "The speed of the car is " << speed << " km/h." << endl;
+
+return 0;
+}
+
