@@ -1,5 +1,7 @@
-#include <iostream> #define PI 3.14159
+#include <iostream>
 using namespace std;
+
+const double PI = 3.14159;
 
 int main() { double diameter, radius, area;
 
@@ -8,10 +10,11 @@ cin >> diameter;
 
 radius = diameter / 2.0;
 
-area = PI * radius * radius;
+area = PI * pow(radius, 2);
 
 cout << "The area of the circle with diameter " << diameter << " is " << area << " square units." << endl;
 
 return 0;
 }
+
 
