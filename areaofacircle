@@ -6,7 +6,7 @@ const double PI = 3.14159;
 int main() { double diameter, radius, area;
 
 cout << "Enter the diameter of the circle: ";
-cin >> diameter;
+cin>>diameter;
 
 radius = diameter / 2.0;
 
